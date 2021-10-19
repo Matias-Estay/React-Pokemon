@@ -24,7 +24,7 @@ import Layout from './componentes/reutilizables/layout.js';
             </small>
           </div>
           <div class="row justify-content-center">
-            <a class="poke-btn btn" href="/inicio">Get Started</a>
+            <a class="poke-btn btn" href="./inicio">Get Started</a>
           </div>
       </Layout>
     </>

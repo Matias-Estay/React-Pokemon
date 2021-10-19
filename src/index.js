@@ -8,7 +8,7 @@ import Home from './componentes/Inicio/Home.js';
 ReactDOM.render(
   <Router history={browserHistory}>
     <Route path="/" component={App}></Route>
-    <Route path="/inicio" component={Home}></Route>
+    <Route path="inicio" component={Home}></Route>
   </Router>,
   document.getElementById('root')
 );
