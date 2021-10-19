@@ -156,8 +156,8 @@ export default class Home extends Component {
                                         <img alt="Sprite" class="img-fluid rounded-circle h-100 mt-2" src={this.state.pokemon.sprites!==undefined?this.state.pokemon.sprites.front_default:''}/>
                                     </div>
                                     <div align-self="end" class="col h-100 w-100 position-absolute" align-v="top" style={{textAlign:'right'}}>
-                                        <button class="translucid mt-2" onClick={()=>{this.Cerrar_modal()}}>
-                                            <BsXCircle style={{background:'none'}}/>
+                                        <button class="translucid shadow-sm mt-2" onClick={()=>{this.Cerrar_modal()}}>
+                                            x
                                         </button>
                                     </div>
                                 </div>
@@ -202,7 +202,7 @@ export default class Home extends Component {
                             </div>
                             </Modal.Body>
                             <Modal.Footer>
-                                <button onClick={()=>{this.Cerrar_modal()}}>Close</button>
+                            
                             </Modal.Footer>
                         </Modal>
                 </div>
