@@ -183,7 +183,7 @@ export default class Home extends Component {
                                     <hr/>
                                 <div class="row align-items-center m-3">
                                     <h5>
-                                    Types: {this.state.pokemon.types!=undefined? this.state.pokemon.types[0].type.name + (this.state.pokemon.types[1]!=undefined?", "+this.state.pokemon.types[1].type.name:''):''}
+                                    Types: {this.state.pokemon.types!==undefined? this.state.pokemon.types[0].type.name + (this.state.pokemon.types[1]!==undefined?", "+this.state.pokemon.types[1].type.name:''):''}
                                     </h5>
                                 </div>
                                 <hr/>
